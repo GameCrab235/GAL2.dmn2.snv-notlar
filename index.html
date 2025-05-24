@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ders Notları Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="section1" class="page-section active">
+        <h1>Dersler</h1>
+        <ul id="lessonList">
+            <li><button data-lesson="matematik">Matematik</button></li>
+            <li><button data-lesson="edebiyat">Edebiyat</button></li>
+            <li><button data-lesson="ingilizce">İngilizce</button></li>
+            <li><button data-lesson="almanca">Almanca</button></li>
+            <li><button data-lesson="felsefe">Felsefe</button></li>
+            <li><button data-lesson="fizik">Fizik</button></li>
+            <li><button data-lesson="kimya">Kimya</button></li>
+            <li><button data-lesson="biyoloji">Biyoloji</button></li>
+            <li><button data-lesson="cografya">Coğrafya</button></li>
+            <li><button data-lesson="tarih">Tarih</button></li>
+            <li><button data-lesson="bilisim">Bilişim</button></li>
+        </ul>
+    </div>
+
+    <div id="section2" class="page-section">
+        <h1 id="subjectLessonTitle"></h1>
+        <ul id="subjectList">
+            </ul>
+        <button id="backToLessons">Derslere Geri Dön</button>
+    </div>
+
+    <div id="section3" class="page-section">
+        <h1 id="notesSubjectTitle"></h1>
+        <div id="lessonNotesContent">
+            </div>
+        <button id="backToSubjects">Konulara Geri Dön</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
